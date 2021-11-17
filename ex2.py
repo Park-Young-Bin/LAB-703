@@ -50,7 +50,7 @@ if select_event == '0️⃣ 팀 소개':
         st.markdown('<p align="left" style="font-family:나눔고딕OTF; color:black; font-size: 15px;">국립재활원 재활연구소 인턴연구원</p>', unsafe_allow_html=True)
 
     with col3:
-        st.image("박영빈.jpg", width=100)
+        st.image("https://github.com/LAB-703/LAB-703/blob/main/%EB%B0%95%EC%98%81%EB%B9%88.jpg?raw=true", width=100)
         st.markdown('<p align="left" style="font-family:나눔고딕OTF; color:black; font-size: 15px;">팀원 : 박영빈</p>', unsafe_allow_html=True)
         st.markdown('<p align="left" style="font-family:나눔고딕OTF; color:black; font-size: 15px;">국립재활원 재활연구소 인턴연구원</p>', unsafe_allow_html=True)
     st.markdown('---------------------------------------------------- ')   
