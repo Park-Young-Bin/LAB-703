@@ -3,20 +3,34 @@ import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
 
+#
+#page_bg_img = '''
+#<style> 
+#.stApp {
+#  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+#  background-size: cover;
+#}
+#</style>
+#'''
+#
+#st.markdown(page_bg_img, unsafe_allow_html=True)
+#
 
-page_bg_img = '''
+page_bg_img2 = '''
 <style>
 .stApp {
-  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
-  background-size: cover;
+  background-image: url("https://i.ytimg.com/vi/o9TNC1Uu7d0/mqdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: 30px 10px;
 }
 </style>
 '''
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_img2, unsafe_allow_html=True)
 
 #타이틀/ 서브타이틀 
-st.markdown('<p align="right" style="font-family:나눔고딕OTF; color:black; font-size: 30px;">국민권익위원회 제 1회 민원 빅데이터 경진대회 출품작</p>', unsafe_allow_html=True)
+st.markdown('<p align="right" style="font-family:나눔고딕OTF ExtraBold; color:black; font-size: 40px;">키워드 ‘장애인’에 대한 국민권익위원회 민원 데이터 분석</p>', unsafe_allow_html=True)
+st.markdown('<p align="right" style="font-family:나눔고딕OTF; color:black; font-size: 30px;">제1회 국민권익위원회 민원데이터 분석 경진대회 결과보고서</p>', unsafe_allow_html=True)
 st.markdown('<p align="right" style="font-family:나눔고딕OTF; color:black; font-size: 30px;"></p>', unsafe_allow_html=True)
 st.markdown('<p align="right" style="font-family:나눔고딕OTF; color:black; font-size: 15px;">제출일 : 2021. 11. 19.</p>', unsafe_allow_html=True)
 st.markdown('<p align="right" style="font-family:나눔고딕OTF ExtraBold; color:black; font-size: 30px;">팀 💪굳건히</p>', unsafe_allow_html=True)
@@ -35,7 +49,7 @@ if select_event == '0️⃣ 팀 소개':
     st.markdown('---------------------------------------------------- ')
     st.markdown('<p align="left" style="font-family:나눔고딕OTF ExtraBold; color:black; font-size: 30px;">팀원 소개</p>', unsafe_allow_html=True)
     st.markdown(' ')
-    
+ 
     # 페이지 레이아웃 3갈래
     #팀원 소개
     col1, col2, col3 = st.columns(3)
