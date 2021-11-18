@@ -229,7 +229,7 @@ elif select_event == '3️⃣ 분석결과':
     HtmlFile = open("국민권익위원회 장애인 관련 민원 LDA 토픽 모델링 (k=4).html", 'r',encoding='utf-8')
     source_code = HtmlFile.read() 
     print(source_code)
-    components.html(source_code,width=1300, height=800, scrolling=False)
+    components.html(source_code,width=1000, height=800, scrolling=False)
     st.markdown('''<pre align="left" style="font-family:나눔고딕OTF; color:black; font-size: 15px;">
   ❍ GitHub 대시보드 관련 -> 이게 대시보드라 안넣어도 될듯 한데 😡😡
 </pre>''', unsafe_allow_html=True) 
