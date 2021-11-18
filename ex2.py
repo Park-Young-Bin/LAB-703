@@ -222,7 +222,7 @@ elif select_event == '3️⃣ 분석결과':
      ※ 다차원 척도를 통해 유사한 토픽을 근처에 배치하기 위한 확률 분포의 유사성을 젠슨-섀넌 발산(Jensen-Shannon Divergence) 지수를 계산한 것. <br>         해당 지표는 기본적으로 각 토픽에 있는 단어 들의 확률 분포에 따른 위치를 보여줌.<br>
  ❍ 불용어 추가 처리 후 재시각화를 반복하여 군집을 보다 효과적으로 분류<br>
  ❍ 텍스트 군집분석을 통해 최적의 k값 후보군(k = 3, 4, 5) 도출(in Python)</pre>''', unsafe_allow_html=True)
-    st.image("군집비교표.png")     
+   # st.image("군집비교표.png")     
     st.markdown('''<pre align="left" style="font-family:나눔고딕OTF; color:black; font-size: 15px;">  ❍ 텍스트 마이닝 기법인 토픽 모델링 기법 중 LDA를 활용하여 시각화(in Python)
 </pre>''', unsafe_allow_html=True)
     st.markdown('<pre align="left" style="font-family:나눔고딕OTF; color:black; font-size: 15px;"><b>[그림 8😡😡😡😡] LDA를 활용한 토픽 모델링 시각화 </b></pre>', unsafe_allow_html=True)
